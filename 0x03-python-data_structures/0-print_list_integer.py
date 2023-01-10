@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-def print_list_integer(*m):
+
+def print_list_integer(my_list=[]):
     '''
     print integers in a list
     Args:
          my_list - list of integers defauult []
     '''
-    for items in m:
+    for i in my_list:
         print("{:d}".format(i))
